@@ -1,0 +1,42 @@
+
+
+#navbarNavDropdown{
+	background-color: #fffced;
+	font-family: merriweather;
+	font-style: bold;
+	font-size: large;
+	color: gray;
+}
+
+a:hover{
+	background-color: #fffced;
+}
+
+
+
+.footer{
+	text-align: center;
+	padding: 4rem;
+	padding-bottom: 1rem;
+	word-spacing: 30%;
+	background-color: darkkhaki;
+	color: white;
+	height: 50%;
+}
+
+
+.bg-image{
+
+	background-image: url('https://images.unsplash.com/photo-1539633199291-043fdc3aba75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80');
+	height: 100vh;
+	background-repeat: no-repeat;  
+	background-size: cover;
+}
+
+#Online{
+
+	font-family: merriweather;
+	color: gray;
+	padding: 10rem;
+	font-size: xx-large;
+}

@@ -1,0 +1,54 @@
+
+#navbarNavDropdown{
+	background-color: #fffced;
+	font-family: merriweather;
+	font-style: bold;
+	font-size: large;
+	color: gray;
+}
+
+
+a:hover{
+	background-color: #E5E7E9;
+}
+
+#form{
+	margin-top: 2rem;
+	background-color: #e0cfc2;
+	margin-bottom: 7rem;
+	padding: 6rem;
+	width: 100%;
+	font-style: oblique;
+
+
+}
+
+#button{
+
+	margin-bottom: 1rem;
+	margin-top: 3rem;
+	background-color: burlywood;
+
+}
+
+#button1{
+	background-color: burlywood;
+}
+
+.footer{
+	text-align: center;
+	padding: 4rem;
+	padding-bottom: 1rem;
+	word-spacing: 30%;
+	background-color: darkkhaki;
+	color: white;
+	height: 50%;
+}
+
+
+h2{
+	font-family: monospace;
+	font-size: xx-large;
+	text-transform: uppercase;
+}
+

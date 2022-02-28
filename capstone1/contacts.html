@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Custom Web Page</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="./contacts.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md" id="navbarNavDropdown">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	    <ul class="nav justify-content-end">
+	      <li class="nav-item">
+	        <a class="nav-link" href="./home.html">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="./aboutme.html">About Me</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="./gallery.html">Gallery</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="./contacts.html">Contacts<span class="sr-only">(current)</span></a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+
+	<h2 class="text-center p-4">Contacts</h2>
+
+	<div class="text-center" id="form">
+		<form class="needs-validation" novalidate>
+	  		<div class="form-row">
+	    		<div class="col-md-4 mb-3">
+	      		<label for="validationCustom01">First name</label>
+	      		<input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
+	      	<div class="valid-feedback">
+	        Looks good!
+	      	</div>
+	    	</div>
+	    	<div class="col-md-4 mb-3">
+	      		<label for="validationCustom02">Last name</label>
+	      		<input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required>
+	     	 <div class="valid-feedback">
+	        Looks good!
+	      	</div>
+	    	</div>
+	    	<div class="col-md-4 mb-3">
+	      		<label for="validationCustomUsername">Email</label>
+	      	
+	        <input type="email" class="form-control" id="validationCustomEmail" placeholder="no@email.com" required>
+	        <div class="invalid-feedback">
+	          Please enter a valid email.
+	        </div>
+	    </div>
+	  </div>
+	  <div class="form-row">
+	    <div class="col-md-3 mb-3">
+	      <label for="validationCustom03">City</label>
+	      <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+	      <div class="invalid-feedback">
+	        Please provide a valid city.
+	      </div>
+	    </div>
+	    <div class="col-md-3 mb-3">
+	      <label for="validationCustom04">State</label>
+	      <select class="form-control" placeholder="State">
+	      	<option selected required>Choose...</option>
+	        <option>Alabama</option>
+	        <option>Alaska</option>
+	        <option>Arizona</option>
+	        <option>Arkansas</option>
+	        <option>California</option>
+	        <option>Colorado</option>
+	        <option>Connecticut</option>
+	        <option>Delaware</option>
+	        <option>Florida</option>
+	        <option>Georgia</option>
+	        <option>Hawaii</option>
+	        <option>Idaho</option>
+	        <option>Illinois</option>
+	        <option>Indiana</option>
+	        <option>Iowa</option>
+	        <option>Kansas</option>
+	        <option>Kentucky</option>
+	        <option>Louisiana</option>
+	        <option>Maine</option>
+	        <option>Maryland</option>
+	      </select>
+	      <div class="invalid-feedback">
+	        Please provide a valid state.
+	      </div>
+	    </div>
+	    <div class="col-md-3 mb-3">
+	      <label for="validationCustom04">Country</label>
+	      <select class="form-control" placeholder="Country">
+	      	<option selected required>Choose...</option>
+	        <option>United States of America</option>
+	        <option>Philippines</option>
+	      </select>
+	      <div class="invalid-feedback">
+	        Please provide a valid country.
+	      </div>
+	    </div>
+	    <div class="col-md-3 mb-3">
+	      <label for="validationCustom05">Zip</label>
+	      <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+	      <div class="invalid-feedback">
+	        Please provide a valid zip.
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="form-group">
+    <label for="exampleFormControlSelect2">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Your Message Here" required></textarea>
+
+  </div>
+	  
+	  <button class="btn btn-block" type="submit" id="button">Submit</button>
+
+	  <button class="btn btn-block" type="reset" id="button1">Reset</button>
+	</form>
+	</div>
+	<script>
+	// Example starter JavaScript for disabling form submissions if there are invalid fields
+	(function() {
+	  'use strict';
+	  window.addEventListener('load', function() {
+	    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+	    var forms = document.getElementsByClassName('needs-validation');
+	    // Loop over them and prevent submission
+	    var validation = Array.prototype.filter.call(forms, function(form) {
+	      form.addEventListener('submit', function(event) {
+	        if (form.checkValidity() === false) {
+	          event.preventDefault();
+	          event.stopPropagation();
+	        }
+	        form.classList.add('was-validated');
+	      }, false);
+	    });
+	  }, false);
+	})();
+	</script>
+
+
+
+	<section>
+		<footer class="footer">
+			
+			<span>Custom Webpage</span>
+			<span>|</span>
+			<span>&copy;2022 All Rights Reserved</span>
+			<p>Disclaimer: None of the contents have been copyrighted.</p>
+			
+		</footer>
+	</section>
+
+
+
+
+
+
+		<!-- JS -->
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</body>
+</html>

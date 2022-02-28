@@ -1,0 +1,85 @@
+
+
+#navbarNavDropdown{
+	background-color: #fffced;
+	font-family: merriweather;
+	font-style: bold;
+	font-size: large;
+	color: gray;
+}
+
+
+a:hover{
+	background-color: #E5E7E9;
+}
+
+#row1{
+
+	margin-left: 2rem;
+	margin-right: 2rem;
+	line-height: 3;
+	font-family: bradley hand, cursive;
+	font-size: small;
+
+
+}
+
+#row2{
+
+	margin-top: 3rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	line-height: 3rem;
+	font-family: bradley hand, cursive;
+	font-size: small;
+}
+
+#aboutmyself>div{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	border: 1px thin cadetblue;
+	
+}
+
+#aboutmyself{
+	
+	margin-top: 8rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-bottom: 7rem;
+	line-height: 3rem;
+	font-family: bradley hand, cursive;
+	font-size: medium;
+
+}
+
+.footer{
+	text-align: center;
+	padding: 4rem;
+	padding-bottom: 1rem;
+	word-spacing: 30%;
+	background-color: darkkhaki;
+	color: white;
+	height: 50%;
+}
+
+
+h4{
+	font-family: bradley hand, cursive;
+}
+
+
+div img{
+	width: 100%;
+	height: 100%;
+}
+
+#back{
+	margin-bottom: 3rem;
+}
+
+div p{
+
+	font-size: large;
+}

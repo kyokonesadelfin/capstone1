@@ -1,0 +1,69 @@
+
+
+#navbarNavDropdown{
+	background-color: #fffced;
+	font-family: merriweather;
+	font-style: bold;
+	font-size: large;
+	color: gray;
+}
+
+
+a:hover{
+	background-color: #E5E7E9;
+}
+
+#top{
+	padding: 3rem;
+	font-family: bradley hand, cursive;
+	font-size: xx-large;
+
+}
+
+#carousel{
+	text-align: center;
+	padding: 4rem;
+
+	
+	
+}
+
+div img{
+	width: 50%;
+	height: 35%;
+	text-align: center;
+}
+
+.footer{
+	text-align: center;
+	padding: 4rem;
+	padding-bottom: 1rem;
+	word-spacing: 30%;
+	background-color: darkkhaki;
+	color: white;
+	height: 50%;
+}
+
+.bg-image{
+
+	background-image: url('https://images.unsplash.com/photo-1539633199291-043fdc3aba75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80');
+	height: 175vh;
+	background-repeat: no-repeat;  
+	background-size: cover;
+}
+
+div h2{
+	font-size: xx-large;
+	font-family: monospace;
+}
+
+#carousel{
+
+	padding: 4rem;
+
+}
+
+#back{
+
+	padding-top: 15rem;
+}
